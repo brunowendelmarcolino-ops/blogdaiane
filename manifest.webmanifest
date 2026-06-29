@@ -1,0 +1,10 @@
+﻿{
+  "name": "Daiane Rodrigues | PsicanÃ¡lise",
+  "short_name": "Daiane Rodrigues",
+  "description": "Blog sobre psicanÃ¡lise, ansiedade, relacionamentos, maternidade e autoconhecimento.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbf7ef",
+  "theme_color": "#5b3a29",
+  "lang": "pt-BR"
+}
