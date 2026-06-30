@@ -763,4 +763,17 @@ pointer-events:none;
 border-radius:34px;
 
 }
+.portrait-image{
+  width:100%;
+  height:650px;
+  object-fit:cover;
+  object-position:center top;
+  border-radius:30px;
+  display:block;
+}
+
+.portrait-card{
+  padding:18px;
+  overflow:hidden;
+}
 }
