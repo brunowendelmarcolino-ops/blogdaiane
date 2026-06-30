@@ -978,4 +978,76 @@ border-radius:34px;
     bottom:28px;
   }
 }
+.article{
+  position:relative;
+  padding-top:92px;
+}
+
+.article::before{
+  content:"Artigo";
+  position:absolute;
+  top:34px;
+  right:0;
+  color:rgba(91,58,41,.08);
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:120px;
+  line-height:1;
+  pointer-events:none;
+}
+
+.article .lead{
+  padding:28px;
+  margin:30px 0;
+  border-left:4px solid var(--gold);
+  border-radius:0 24px 24px 0;
+  background:rgba(255,253,248,.75);
+}
+
+.article-meta{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+  margin:24px 0 34px;
+  color:var(--muted);
+  font-size:14px;
+  font-weight:800;
+}
+
+.article-meta span{
+  padding:8px 12px;
+  border-radius:999px;
+  background:rgba(255,253,248,.8);
+  border:1px solid var(--border);
+}
+
+.article a{
+  color:var(--moss);
+  font-weight:900;
+}
+
+.article p{
+  max-width:760px;
+}
+
+.related-box{
+  margin-top:54px;
+  padding:34px;
+  border-radius:28px;
+  background:linear-gradient(135deg,#fffdf8,#f2eadf);
+  border:1px solid var(--border);
+  box-shadow:0 18px 50px rgba(91,58,41,.08);
+}
+
+.related-box h2{
+  font-size:34px;
+  margin-bottom:16px;
+}
+
+.related-box ul{
+  list-style:none;
+}
+
+.related-box li{
+  margin:12px 0;
+}
 }
