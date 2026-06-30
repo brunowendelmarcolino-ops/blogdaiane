@@ -687,4 +687,32 @@ h1,h2,h3{
   color:white;
   border-color:var(--primary);
 }
+.premium-footer{
+  background:
+    radial-gradient(circle at top left, rgba(177,138,85,.15), transparent 30%),
+    linear-gradient(180deg, rgba(255,253,248,.9), rgba(242,234,223,.75));
+}
+
+.premium-footer .footer-container{
+  grid-template-columns:1.4fr .8fr .8fr 1fr;
+}
+
+.footer-note{
+  margin-top:18px;
+  max-width:420px;
+}
+
+.footer a{
+  color:inherit;
+}
+
+.footer a:hover{
+  color:var(--moss);
+}
+
+@media(max-width:900px){
+  .premium-footer .footer-container{
+    grid-template-columns:1fr;
+  }
+}
 }
