@@ -459,4 +459,33 @@ h1,h2,h3{
   .card{
     padding:24px;
   }
+  .logo-area{
+    display:flex;
+    flex-direction:column;
+    }
+
+    .subtitle{
+    font-size:12px;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    color:var(--moss);
+    margin-top:4px;
+    font-weight:700;
+    }
+
+    .header-button{
+
+    background:var(--primary);
+    color:white;
+    padding:12px 20px;
+    border-radius:999px;
+    font-size:14px;
+    font-weight:bold;
+    transition:.25s;
+    }
+
+    .header-button:hover{
+    background:var(--primary-2);
+    transform:translateY(-2px);
+    }
 }

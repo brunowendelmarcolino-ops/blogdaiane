@@ -4,11 +4,21 @@ document.write(`
 
 <header class="site-header">
 
+<div class="logo-area">
+
 <a href="index.html" class="brand">
 
 Daiane <span>Rodrigues</span>
 
 </a>
+
+<p class="subtitle">
+
+Psicanálise
+
+</p>
+
+</div>
 
 <nav class="nav">
 
@@ -26,6 +36,14 @@ Daiane <span>Rodrigues</span>
 
 </nav>
 
+<a class="header-button"
+
+href="agendamento.html">
+
+Agendar
+
+</a>
+
 </header>
 
 `);
@@ -42,11 +60,15 @@ document.write(`
 
 <div>
 
-<h3>Daiane Rodrigues</h3>
+<h3>
+
+Daiane Rodrigues
+
+</h3>
 
 <p>
 
-Psicanálise, escuta e acolhimento.
+Psicanálise • Escuta • Cuidado emocional
 
 </p>
 
@@ -54,17 +76,21 @@ Psicanálise, escuta e acolhimento.
 
 <div>
 
-<h4>Categorias</h4>
+<h4>
+
+Navegação
+
+</h4>
 
 <ul>
 
-<li>Ansiedade</li>
+<li><a href="sobre.html">Sobre</a></li>
 
-<li>Casais</li>
+<li><a href="blog.html">Blog</a></li>
 
-<li>Maternidade</li>
+<li><a href="categorias.html">Categorias</a></li>
 
-<li>Autoconhecimento</li>
+<li><a href="contato.html">Contato</a></li>
 
 </ul>
 
@@ -72,7 +98,11 @@ Psicanálise, escuta e acolhimento.
 
 <div>
 
-<h4>Contato</h4>
+<h4>
+
+Contato
+
+</h4>
 
 <p>
 
@@ -88,7 +118,7 @@ Instagram
 
 <p>
 
-Email
+contato@daianerodrigues.com.br
 
 </p>
 
