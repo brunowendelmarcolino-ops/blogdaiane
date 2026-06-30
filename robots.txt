@@ -1,4 +1,4 @@
 ﻿User-agent: *
 Allow: /
 
-Sitemap: https://blogdaiane.brunowendelmarcolino.workers.dev/sitemap.xml
+Sitemap: https://psidaianerodrigues.brunowendelmarcolino.workers.dev/sitemap.xml

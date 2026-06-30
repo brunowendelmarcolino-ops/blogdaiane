@@ -1,8 +1,37 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://blogdaiane.brunowendelmarcolino.workers.dev/</loc></url>
-  <url><loc>https://blogdaiane.brunowendelmarcolino.workers.dev/sobre.html</loc></url>
-  <url><loc>https://blogdaiane.brunowendelmarcolino.workers.dev/blog.html</loc></url>
-  <url><loc>https://blogdaiane.brunowendelmarcolino.workers.dev/agendamento.html</loc></url>
-  <url><loc>https://blogdaiane.brunowendelmarcolino.workers.dev/contato.html</loc></url>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://psidaianerodrigues.brunowendelmarcolino.workers.dev/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://psidaianerodrigues.brunowendelmarcolino.workers.dev/sobre.html</loc>
+  </url>
+
+  <url>
+    <loc>https://psidaianerodrigues.brunowendelmarcolino.workers.dev/blog.html</loc>
+  </url>
+
+  <url>
+    <loc>https://psidaianerodrigues.brunowendelmarcolino.workers.dev/categorias.html</loc>
+  </url>
+
+  <url>
+    <loc>https://psidaianerodrigues.brunowendelmarcolino.workers.dev/agendamento.html</loc>
+  </url>
+
+  <url>
+    <loc>https://psidaianerodrigues.brunowendelmarcolino.workers.dev/contato.html</loc>
+  </url>
+
+  <url>
+    <loc>https://psidaianerodrigues.brunowendelmarcolino.workers.dev/posts/ansiedade.html</loc>
+  </url>
+
+  <url>
+    <loc>https://psidaianerodrigues.brunowendelmarcolino.workers.dev/posts/autoconhecimento.html</loc>
+  </url>
+
 </urlset>
