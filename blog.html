@@ -1,250 +1,68 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Blog | Daiane Rodrigues</title>
-
-<meta name="description"
-content="Artigos sobre ansiedade, psicanálise, maternidade, autoestima, casais e autoconhecimento.">
-
-<link rel="stylesheet" href="assets/css/style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Daiane Rodrigues</title>
+  <meta name="description" content="Artigos sobre psicanálise, ansiedade, relacionamentos, maternidade, autoestima e autoconhecimento.">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
-
-<script src="assets/js/layout.js"></script>
-
-<script>
-
-renderHeader()
-
-</script>
-
-<section class="page">
-
-<p class="eyebrow">
-
-Blog
-
-</p>
-
-<h1>
-
-Psicanálise para a vida cotidiana.
-
-</h1>
-
-<p class="lead">
-
-Textos escritos para quem deseja compreender melhor
-os próprios sentimentos e desenvolver uma relação
-mais saudável consigo e com o outro.
-
-</p>
-
-<input
-id="search"
-class="search"
-placeholder="Pesquisar artigo...">
-
-<div
-class="post-grid"
-id="posts">
-
-<article
-class="post-card"
-data-title="ansiedade corpo mente">
-
-<p class="post-category">
-
-Ansiedade
-
-</p>
-
-<h3>
-
-<a href="posts/ansiedade.html">
-
-Ansiedade:
-quando a mente fala pelo corpo
-
-</a>
-
-</h3>
-
-<p>
-
-Nem sempre o sofrimento consegue virar palavra.
-Às vezes ele aparece como sintoma.
-
-</p>
-
-</article>
-
-<article
-class="post-card"
-data-title="autoconhecimento culpa">
-
-<p class="post-category">
-
-Autoconhecimento
-
-</p>
-
-<h3>
-
-<a href="posts/autoconhecimento.html">
-
-Autoconhecimento
-não é se julgar
-
-</a>
-
-</h3>
-
-<p>
-
-Conhecer-se não significa procurar defeitos.
-Significa compreender sua própria história.
-
-</p>
-
-</article>
-
-<article
-class="post-card"
-data-title="casais relacionamento amor">
-
-<p class="post-category">
-
-Relacionamentos
-
-</p>
-
-<h3>
-
-<a href="#">
-
-Por que repetimos
-os mesmos relacionamentos?
-
-</a>
-
-</h3>
-
-<p>
-
-Nem toda escolha é consciente.
-A repetição também comunica.
-
-</p>
-
-</article>
-
-<article
-class="post-card"
-data-title="maternidade mae culpa">
-
-<p class="post-category">
-
-Maternidade
-
-</p>
-
-<h3>
-
-<a href="#">
-
-Existe mãe perfeita?
-
-</a>
-
-</h3>
-
-<p>
-
-A maternidade possível costuma ser mais saudável
-do que a maternidade idealizada.
-
-</p>
-
-</article>
-
-<article
-class="post-card"
-data-title="autoestima">
-
-<p class="post-category">
-
-Autoestima
-
-</p>
-
-<h3>
-
-<a href="#">
-
-Quando você começou
-a acreditar que não era suficiente?
-
-</a>
-
-</h3>
-
-<p>
-
-Nossa autoestima é construída muito antes
-da vida adulta.
-
-</p>
-
-</article>
-
-<article
-class="post-card"
-data-title="casamento">
-
-<p class="post-category">
-
-Casais
-
-</p>
-
-<h3>
-
-<a href="#">
-
-O silêncio também fala
-nos relacionamentos.
-
-</a>
-
-</h3>
-
-<p>
-
-Nem toda ausência de diálogo
-é ausência de sentimento.
-
-</p>
-
-</article>
-
-</div>
-
-</section>
-
-<script src="assets/js/script.js"></script>
-<script>
-
-renderFooter()
-
-</script>
+  <script src="assets/js/layout.js"></script>
+  <script>renderHeader()</script>
+
+  <main class="page">
+    <p class="eyebrow">Blog</p>
+    <h1>Textos para transformar incômodo em palavra.</h1>
+
+    <p class="lead">
+      Reflexões sobre vida emocional, vínculos, sintomas e autoconhecimento,
+      escritas com delicadeza, profundidade e linguagem acessível.
+    </p>
+
+    <div class="blog-toolbar">
+      <input id="search" class="search" placeholder="Buscar por ansiedade, casal, culpa...">
+      <div class="category-pills">
+        <button data-filter="all">Todos</button>
+        <button data-filter="ansiedade">Ansiedade</button>
+        <button data-filter="autoconhecimento">Autoconhecimento</button>
+        <button data-filter="relacionamentos">Relacionamentos</button>
+        <button data-filter="maternidade">Maternidade</button>
+      </div>
+    </div>
+
+    <section class="post-grid" id="posts">
+      <article class="post-card featured-post" data-category="ansiedade" data-title="ansiedade corpo mente sintoma medo">
+        <p class="post-category">Ansiedade</p>
+        <h3><a href="posts/ansiedade.html">Ansiedade: quando a mente fala pelo corpo</a></h3>
+        <p>Nem sempre o sofrimento vira palavra. Às vezes ele aparece como sintoma.</p>
+        <a class="read-more" href="posts/ansiedade.html">Ler artigo →</a>
+      </article>
+
+      <article class="post-card featured-post" data-category="autoconhecimento" data-title="autoconhecimento culpa julgamento escuta">
+        <p class="post-category">Autoconhecimento</p>
+        <h3><a href="posts/autoconhecimento.html">Autoconhecimento não é se julgar</a></h3>
+        <p>Conhecer-se é escutar a própria história com menos culpa e mais verdade.</p>
+        <a class="read-more" href="posts/autoconhecimento.html">Ler artigo →</a>
+      </article>
+
+      <article class="post-card featured-post" data-category="relacionamentos" data-title="relacionamentos padrões repetição amor">
+        <p class="post-category">Relacionamentos</p>
+        <h3><a href="#">Por que repetimos certos padrões afetivos?</a></h3>
+        <p>Algumas escolhas amorosas revelam histórias que ainda pedem elaboração.</p>
+        <a class="read-more" href="#">Em breve →</a>
+      </article>
+
+      <article class="post-card featured-post" data-category="maternidade" data-title="maternidade culpa mãe perfeita">
+        <p class="post-category">Maternidade</p>
+        <h3><a href="#">Existe mãe perfeita?</a></h3>
+        <p>A maternidade possível costuma ser mais saudável que a maternidade idealizada.</p>
+        <a class="read-more" href="#">Em breve →</a>
+      </article>
+    </section>
+  </main>
+
+  <script src="assets/js/script.js"></script>
+  <script>renderFooter()</script>
 </body>
-
 </html>

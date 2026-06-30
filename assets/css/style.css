@@ -660,4 +660,31 @@ h1,h2,h3{
     padding:46px 26px;
   }
 }
+.blog-toolbar{
+  margin:34px 0 42px;
+}
+
+.category-pills{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+
+.category-pills button{
+  border:1px solid var(--border);
+  background:rgba(255,253,248,.78);
+  color:var(--primary);
+  padding:10px 16px;
+  border-radius:999px;
+  font-weight:900;
+  cursor:pointer;
+  transition:.25s ease;
+}
+
+.category-pills button:hover,
+.category-pills button.active{
+  background:var(--primary);
+  color:white;
+  border-color:var(--primary);
+}
 }

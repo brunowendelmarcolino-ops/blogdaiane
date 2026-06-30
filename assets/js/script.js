@@ -1,30 +1,37 @@
-﻿const campo = document.querySelector("#search");
+﻿const search = document.querySelector("#search");
+const cards = document.querySelectorAll(".post-card");
+const filters = document.querySelectorAll("[data-filter]");
 
-if (campo) {
+let activeFilter = "all";
 
-const cards =
-document.querySelectorAll(".post-card");
+function applyFilters() {
+  const term = search ? search.value.toLowerCase() : "";
 
-campo.addEventListener("keyup", function () {
+  cards.forEach(card => {
+    const title = card.dataset.title || "";
+    const category = card.dataset.category || "";
+    const matchesText = title.includes(term);
+    const matchesCategory = activeFilter === "all" || category === activeFilter;
 
-const texto =
-this.value.toLowerCase();
+    card.style.display = matchesText && matchesCategory ? "flex" : "none";
+  });
+}
 
-cards.forEach(card => {
+if (search) {
+  search.addEventListener("input", applyFilters);
+}
 
-const base =
-card.dataset.title;
+filters.forEach(button => {
+  button.addEventListener("click", () => {
+    activeFilter = button.dataset.filter;
 
-if(base.includes(texto))
+    filters.forEach(item => item.classList.remove("active"));
+    button.classList.add("active");
 
-card.style.display="block";
-
-else
-
-card.style.display="none";
-
+    applyFilters();
+  });
 });
 
-});
-
+if (filters.length) {
+  filters[0].classList.add("active");
 }
